@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reset Password</title>
+    <style>
+        /* Gaya CSS untuk mengatur tampilan */
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+
+        form {
+            margin-top: 20px;
+            width: 400px; /* Adjust the width as needed */
+            margin: 0 auto; /* Center the form horizontally */
+        }
+
+        input[type="password"] {
+            width: 100%; /* Make input fields fill the form width */
+            padding: 10px;
+            margin-bottom: 10px;
+        }
+
+        button {
+            padding: 10px 20px;
+            background-color: #4CAF50; /* Warna hijau */
+            color: white;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            display: inline-block; /* Make buttons inline-block elements */
+            margin: 0 5px; /* Add spacing between buttons */
+        }
+    </style>
+</head>
+<body>
+    <h2>Reset Kata Sandi Anda</h2>
+
+    <form action="logincoba.html" method="post"> 
+		<input type="password" name="newPassword" placeholder="Password baru *" required>
+        <input type="password" name="confirmPassword" placeholder="Ulangi password baru *" required>
+        <button type="submit">Kirim</button>
+        <button type="reset">Batal</button>
+    </form>
+</body>
+</html>
